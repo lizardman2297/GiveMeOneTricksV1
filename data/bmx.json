@@ -1,0 +1,47 @@
+{
+    "tricks BMX": [
+		{
+			"name": "tailwhip",
+			"difficulty": 2
+		},{
+			"name": "bus",
+			"difficulty": 1
+		},{
+			"name": "360",
+			"difficulty": 2
+		},{
+			"name": "180",
+			"difficulty": 1
+		},{
+			"name": "180 bus",
+			"difficulty": 2
+		},{
+			"name": "trucks (360 bus)",
+			"difficulty": 3
+		},{
+			"name": "tail tap",
+			"difficulty": 1
+		},{
+			"name": "air",
+			"difficulty": 1
+		},{
+			"name": "nose grab",
+			"difficulty": 1
+		},{
+			"name": "seat grab",
+			"difficulty": 1
+		},{
+			"name": "270",
+			"difficulty": 2
+		},{
+			"name": "foot plant",
+			"difficulty": 2
+		},{
+			"name": "oppo bus",
+			"difficulty": 3
+		},{
+			"name": "oppo 180",
+			"difficulty": 2
+		}
+	]
+}

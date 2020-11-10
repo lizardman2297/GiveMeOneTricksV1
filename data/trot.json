@@ -1,0 +1,95 @@
+{
+    "tricks Trot": [
+        {
+            "name": "barspin",
+            "difficulty": 1
+        },{
+            "name": "double barspin",
+            "difficulty": 2
+        },{
+            "name": "triple barspin",
+            "difficulty": 3
+        },{
+            "name": "trailwhip",
+            "difficulty": 1
+        },{
+            "name": "double trailwhip",
+            "difficulty": 1
+        },{
+            "name": "triple tailwhip",
+            "difficulty": 1
+        },{
+            "name": "quadruple trailwhip",
+            "difficulty": 3
+        },{
+            "name": "bar to whip",
+            "difficulty": 2
+        },{
+            "name": "whip to bar",
+            "difficulty": 2
+        },{
+            "name": "finger whip",
+            "difficulty": 2
+        },{
+            "name": "finger double whip",
+            "difficulty": 3
+        },{
+            "name": "bri",
+            "difficulty": 2
+        },{
+            "name": "bri whip",
+            "difficulty": 3
+        },{
+            "name": "front bri",
+            "difficulty": 2
+        },{
+            "name": "front scoot",
+            "difficulty": 3
+        },{
+            "name": "whip front scoot",
+            "difficulty": 2
+        },{
+            "name": "buttercup",
+            "difficulty": 3
+        },{
+            "name": "umbrela",
+            "difficulty": 3
+        },{
+            "name": "kickless",
+            "difficulty": 2
+        },{
+            "name": "whip kickless",
+            "difficulty": 3
+        },{
+            "name": "kickless whip",
+            "difficulty": 3
+        },{
+            "name": "180",
+            "difficulty": 1
+        },{
+            "name": "360",
+            "difficulty": 1
+        },{
+            "name": "720",
+            "difficulty": 3
+        },{
+            "name": "360 bar",
+            "difficulty": 2
+        },{
+            "name": "360 whip",
+            "difficulty": 2
+        },{
+            "name": "360 bar bar",
+            "difficulty": 3
+        },{
+            "name": "360 double whip",
+            "difficulty": 3
+        },{
+            "name": "360 bar whip",
+            "difficulty": 1
+        },{
+            "name": "540",
+            "difficulty": 2
+        }
+    ]
+}
