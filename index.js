@@ -19,7 +19,7 @@ app.get('/sport/bmx/', function(req, res) {
     trick = fun.getRandomTricks(tricks)
 
     
-    res.render("sport/trot.ejs", {tricks: trick});
+    res.render("sport/bmx.ejs", {tricks: trick});
 });
 
 app.get('/sport/parkour/', function(req, res) {
@@ -31,7 +31,7 @@ app.get('/sport/parkour/', function(req, res) {
     trick = fun.getRandomTricks(tricks)
 
     
-    res.render("sport/trot.ejs", {tricks: trick});
+    res.render("sport/parkour.ejs", {tricks: trick});
 });
 
 app.get('/sport/trot/', function(req, res) {
