@@ -3,23 +3,23 @@ var express = require('express');
 var app = express();
 
 app.get('/', function(req, res) {
-    res.setHeader('Content-Type', 'text/plain');
-    res.send('Vous êtes à l\'accueil');
+    res.render("index.ejs");
 });
 
 app.get('/sport/', function(req, res) {
-    res.setHeader('Content-Type', 'text/plain');
-    res.send('selectionne ton sport');
+    res.render("sport.ejs");
 });
 
 app.get('/sport/bmx/', function(req, res) {
-    res.setHeader('Content-Type', 'text/plain');
-    res.send('je te donne un tricks en BMX');
+    test = require("./src/bmx.js");
+    let tricks = test.getRandomBmx();
+    res.render("sport/bmx.ejs", {tricks: tricks});
 });
 
 app.get('/sport/parkour/', function(req, res) {
-    res.setHeader('Content-Type', 'text/plain');
-    res.send('je te donne un tricks en Parkour');
+    test = require("./src/parkour.js");
+    let tricks = test.getRandomParkour();
+    res.render("sport/parkour.ejs", {tricks: tricks});
 });
 
 app.use(function(req, res, next) {

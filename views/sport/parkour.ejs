@@ -1,0 +1,7 @@
+<%- include("../include/menu"); %> 
+
+<h1>Parkour</h1>
+
+<% for( let i = 0; i < tricks.length; i++ ) { %>
+    <%= tricks[i].name %> -- <%= tricks[i].difficulty %> <br> 
+<% } %> 
