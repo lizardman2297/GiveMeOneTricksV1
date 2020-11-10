@@ -1,16 +1,13 @@
-var getRandomTricks = function getRandomTricks(listeTricks) {
-    let alreadyTaken = [];
+let getRandomTricks = function getRandomTricks(tricksList) {
     let randomNumber;
     let tricks;
 
-    randomNumber = getRandomInt(listeTricks.length);
-    tricks = listeTricks[randomNumber];
-    return tricks;
+    return tricks = tricksList[getRandomInt(tricksList.length)];
 }
+
 
 function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
 }
 
 exports.getRandomTricks = getRandomTricks;
-
