@@ -7,10 +7,6 @@ app.get('/', function(req, res) {
     res.render("index.ejs");
 });
 
-app.get('/sport/', function(req, res) {
-    res.render("sport.ejs");
-});
-
 app.get('/sport/:sport/', function(req, res) {
     let sport = req.params.sport
     let json = require(`./data/${sport}.json`)

@@ -2,6 +2,8 @@
     "name": "give-me-one-tricks",
     "description": "this app it a tricks generator",
     "version": "0.2.0",
+    "author": "Loris fariello",
+    "license": "MIT License",
     "engines": {
         "node": "12.x",
         "npm": "6.x"

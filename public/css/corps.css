@@ -6,6 +6,10 @@ body {
     font-size: 3em;
 }
 
+.title {
+    text-align: center;
+}
+
 .container {
     position: absolute;
     width: 100%;
