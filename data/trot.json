@@ -1,5 +1,5 @@
 {
-    "tricks Trot": [
+    "trot": [
         {
             "name": "barspin",
             "difficulty": 1
@@ -90,6 +90,12 @@
         },{
             "name": "540",
             "difficulty": 2
+        },{
+            "name": "grab",
+            "difficulty": 1
+        },{
+            "name": "grab-bar",
+            "difficulty": 3
         }
     ]
 }

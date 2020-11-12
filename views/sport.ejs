@@ -1,3 +1,19 @@
-<%- include("include/menu"); %> 
+<%- include("./include/menu"); %> 
+<link rel="stylesheet" href="../public/css/corps.css">
 
-<h1>sport</h1>
+<div class="container"">
+    <h1> <%= sport %> </h1>
+    
+    
+    <h2>Trick : <span id="tricks"><%= tricks.name %></span></h2>
+    <h3>Difficulty : <span id="difficulty"><%= tricks.difficulty %></span></h3>
+
+    <h2>Your score : <span id="yourScore"></span></h2>
+    
+    <button onclick="score('plus')" class="btn validate">Valider</button>
+    <button onclick="score('moins')" class="btn fail">Rater</button>
+    <button onclick="score('zero')" class="btn skip">Passer</button>
+    <button onclick="score('reset')" class="btn reset">Reset</button>
+</div>
+
+<script src="../../public/js/score.js"></script>

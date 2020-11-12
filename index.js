@@ -1,6 +1,6 @@
-var express = require('express');
+let express = require('express');
 
-var app = express();
+let app = express();
 app.use('/public', express.static('public'));
 
 app.get('/', function(req, res) {
@@ -11,32 +11,15 @@ app.get('/sport/', function(req, res) {
     res.render("sport.ejs");
 });
 
-app.get('/sport/bmx/', function(req, res) {
-    var json = require("./data/bmx.json");
-    var tricks = json["tricks BMX"];
-    moduleSport = require("./src/sport");
-    trick = moduleSport.getRandomTricks(tricks);
-    
-    res.render("sport/bmx.ejs", {tricks: trick});
-});
-
-app.get('/sport/parkour/', function(req, res) {
-    var json = require("./data/parkour.json");
-    var tricks = json["tricks Parkour"];
-    moduleSport = require("./src/sport");
-    trick = moduleSport.getRandomTricks(tricks);
-    
-    res.render("sport/parkour.ejs", {tricks: trick});
-});
-
-app.get('/sport/trot/', function(req, res) {
-    var json = require("./data/trot.json");
-    var tricks = json["tricks Trot"];
+app.get('/sport/:sport/', function(req, res) {
+    let sport = req.params.sport
+    let json = require(`./data/${sport}.json`)
+    let tricks = json[`${sport}`]
     moduleSport = require("./src/sport");
     trick = moduleSport.getRandomTricks(tricks)
-    
-    res.render("sport/trot.ejs", {tricks: trick});
-});
+
+    res.render("sport.ejs", {sport: sport, tricks: trick})
+})
 
 app.use(function(req, res, next) {
     res.setHeader('Content-Type', 'text/plain');

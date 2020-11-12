@@ -1,4 +1,21 @@
-.menu {
+/* .menu {
     max-width: 960px;
     margin: 0 auto;
+} */
+
+.menu {
+    position: absolute;
+    top: 0;
+    z-index: 999;
+}
+
+.drop {
+    visibility: hidden;
+    list-style: none;
+    padding: 10px 0 0 0;
+    background-color: rgba(211, 211, 211, 0.9);
+}
+
+.drop li {
+    margin: 5px 0;
 }

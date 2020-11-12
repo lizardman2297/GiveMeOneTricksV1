@@ -1,29 +1,29 @@
 {
-    "tricks BMX": [
+    "bmx": [
 		{
-			"name": "tailwhip",
-			"difficulty": 2
-		},{
-			"name": "bus",
+			"name": "barspin",
 			"difficulty": 1
-		},{
-			"name": "360",
-			"difficulty": 2
 		},{
 			"name": "180",
 			"difficulty": 1
 		},{
-			"name": "180 bus",
+			"name": "360",
+			"difficulty": 1
+		},{
+			"name": "540",
 			"difficulty": 2
 		},{
-			"name": "trucks (360 bus)",
+			"name": "720",
 			"difficulty": 3
 		},{
-			"name": "tail tap",
+			"name": "tailwhip",
+			"difficulty": 2
+		},{
+			"name": "condor",
 			"difficulty": 1
 		},{
-			"name": "air",
-			"difficulty": 1
+			"name": "sucide",
+			"difficulty": 2
 		},{
 			"name": "nose grab",
 			"difficulty": 1
@@ -31,17 +31,74 @@
 			"name": "seat grab",
 			"difficulty": 1
 		},{
-			"name": "270",
+			"name": "tobogan",
 			"difficulty": 2
 		},{
-			"name": "foot plant",
+			"name": "whip",
+			"difficulty": 1
+		},{
+			"name": "tabletop",
+			"difficulty": 1
+		},{
+			"name": "invert",
 			"difficulty": 2
 		},{
-			"name": "oppo bus",
+			"name": "turndown",
+			"difficulty": 2
+		},{
+			"name": "360 barspin",
+			"difficulty": 2
+		},{
+			"name": "bar to bar",
 			"difficulty": 3
 		},{
-			"name": "oppo 180",
+			"name": "360 tailwhip",
+			"difficulty": 3
+		},{
+			"name": "crankflip",
+			"difficulty": 1
+		},{
+			"name": "no foot",
+			"difficulty": 1
+		},{
+			"name": "one foot",
+			"difficulty": 1
+		},{
+			"name": "180 barspin",
 			"difficulty": 2
+		},{
+			"name": "tailwhip to bar",
+			"difficulty": 4
+		},{
+			"name": "backflip",
+			"difficulty": 2
+		},{
+			"name": "canonball",
+			"difficulty": 3
+		},{
+			"name": "360 condor",
+			"difficulty": 3
+		},{
+			"name": "tail tap",
+			"difficulty": 1
+		},{
+			"name": "270",
+			"difficulty": 1
+		},{
+			"name": "foot plant",
+			"difficulty": 1
+		},{
+			"name": "oppo 180",
+			"difficulty": 1
+		},{
+			"name": "oppo bus",
+			"difficulty": 2
+		},{
+			"name": "footjam",
+			"difficulty": 2
+		},{
+			"name": "footjam whip",
+			"difficulty": 3
 		}
 	]
 }
