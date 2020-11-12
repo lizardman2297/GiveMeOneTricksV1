@@ -1,6 +1,15 @@
+* {
+    overflow: hidden;
+}
+
+body {
+    font-size: 3em;
+}
+
 .container {
     position: absolute;
     top: 10px;
+    width: 100%;
 }
 
 .btn {
@@ -8,6 +17,7 @@
     border-width: 0;
     border-radius: 12px;
     padding: 6px;
+    font-size: 100%;
 }
 
 .validate {
@@ -24,4 +34,10 @@
 
 .reset {
     background-color: lightgray;
+    margin-top: 30px;
+}
+
+.btnGroup {
+    width: 100%;
+    text-align: center;
 }

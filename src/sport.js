@@ -1,8 +1,13 @@
-let getRandomTricks = function getRandomTricks(tricksList) {
-    let randomNumber;
-    let tricks;
+let getRandomTricks = function getRandomTricks(tricksList, dif = 0) {
 
-    return tricks = tricksList[getRandomInt(tricksList.length)];
+    if (dif == 1 || dif == 2 || dif == 3) {
+        do {
+            trick = tricksList[getRandomInt(tricksList.length)]
+        } while (trick["difficulty"] != dif)
+    } else {
+        trick = tricksList[getRandomInt(tricksList.length)]
+    }
+    return trick
 }
 
 
