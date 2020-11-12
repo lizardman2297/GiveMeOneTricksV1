@@ -6,18 +6,57 @@
 .menu {
     position: absolute;
     top: 0;
-    z-index: 999;
+    left: 0;
+    right: 0;
     width: 100%;
     text-align: center;
 }
 
-.drop {
+.dropDisp {
+    background-color: rgba(31, 31, 31, 0.800);
+    border-radius: 0 0 15px 15px;
+    visibility: visible;
+    z-index: 10;
+}
+
+.dropHide {
+    box-shadow: none;
+    background-color: rgb(255,255,255);
     visibility: hidden;
+    z-index: 0;
+}
+
+.drop {
     list-style: none;
-    padding: 10px 0 0 0;
-    background-color: rgba(211, 211, 211, 0.9);
+    padding: 10px 50px 10px 0;
+    margin: 0;
+    font-size: 125%;
+    text-align: right;
 }
 
 .drop li {
     margin: 5px 0;
+}
+
+.entete {
+    display: flex;
+    background-color: rgba(31, 31, 31, 0.800);
+    font-size: 125%;
+    padding-bottom: 10px;
+}
+
+.enteteLeft {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.enteteRight {
+    text-align: right;
+    flex: auto;
+    margin-right: 15px;
+}
+
+.menu a, .drop a, .menu span {
+    color: lightblue;
+    text-decoration: none;
 }

@@ -2,9 +2,15 @@
 <script src="../public/js/menu.js"></script>
 
 <div class="menu">
-    <a href="/">Accueil</a>
-        <span class="dropTitle" onclick="switchDrop()">Sport</span>
-        <ul id="drop" class="drop">
+    <div class="entete">
+        <div class="enteteLeft">
+            <a href="/">Accueil</a>
+        </div>
+        <div class="enteteRight">
+            <span class="dropTitle" onclick="switchDrop()">Sport</span>
+        </div>
+    </div>
+        <ul id="drop" class="drop dropHide">
             <li><a href="/sport/bmx">BMX</a></li>
             <li><a href="/sport/parkour">Parkour</a></li>
             <li><a href="/sport/trot">Trot</a></li>
