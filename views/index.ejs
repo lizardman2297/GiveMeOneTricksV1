@@ -1,13 +1,18 @@
-<link rel="stylesheet" href="public/css/corps.css">
 <%- include("include/menu"); %> 
+<link rel="stylesheet" href="public/css/corps.css">
+<link rel="stylesheet" href="public/css/menu.css">
 
 <div class="container">
     <h1 class="title">Give me one tricks</h1>
-
-    <div class="tricks">
-        
-        <p>Give me one tricks</p>
+    <p class="indexDesc">Selectionne ton sport pour avoir des tricks plus où moins compliquer à réaliser !</p>
+    <div class="btnIndexGroup">
+        <button class="btnIndex" onclick="selectSport('bmx')">BMX</button>
+        <button class="btnIndex" onclick="selectSport('parkour')">Parkour</button>
+        <button class="btnIndex" onclick="selectSport('trot')">Trot</button>
     </div>
+
 </div>
 
+<script src="./public/js/menu.js"></script>
+<script src="./public/js/index.js"></script>
 

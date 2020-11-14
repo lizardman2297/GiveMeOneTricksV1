@@ -1,23 +1,20 @@
 <%- include("./include/menu"); %> 
 <link rel="stylesheet" href="../public/css/corps.css">
+<link rel="stylesheet" href="../public/css/menu.css">
 
-<div class="container"">
-    <h1 class="sportTitle"> <%= sport %> </h1>
-    
-    <div class="tricks">
-        <h2>Trick : <span id="tricks"><%= tricks.name %></span></h2>
-        <h3>Difficulty : <span id="difficulty"><%= tricks.difficulty %></span></h3>
-    
-        <h2>Your score : <span id="yourScore"></span></h2>
-    </div>
-    <div class="btnGroup">
-        <button onclick="score('plus')" class="btn validate">Validé</button>
-        <button onclick="score('moins')" class="btn fail">Raté</button>
-        <button onclick="score('zero')" class="btn skip">Passé</button>
-    </div>
-    <div class="btnGroup">
-        <button onclick="score('reset')" class="btn reset">Reset</button>
-    </div>
+<div class="container">
+
+   <h1 class="sportTitle"><%= sport %></h1> 
+   <p class="indexDesc">Select level for tricks easy or not</p>
+
+   <div class="btnIndexGroup">
+       <button class="btnIndex easy" onclick="selectDifficulty(`<%= sport %>`, 1)">Level 1</button>
+       <button class="btnIndex medium" onclick="selectDifficulty(`<%= sport %>`, 2)">Level 2</button>
+       <button class="btnIndex hard" onclick="selectDifficulty(`<%= sport %>`, 3)">Level 3</button>
+       <button class="btnIndex all" onclick="selectDifficulty(`<%= sport %>`, 0)">All level</button>
+   </div>
+
 </div>
 
-<script src="../../public/js/score.js"></script>
+<script src="../../public/js/index.js"></script>
+<script src="../../public/js/menu.js"></script>
