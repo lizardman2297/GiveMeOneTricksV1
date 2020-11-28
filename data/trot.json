@@ -2,100 +2,112 @@
     "trot": [
         {
             "name": "barspin",
-            "difficulty": 1
+            "difficulty": 1,
+            "type": "fly"
         },{
             "name": "double barspin",
-            "difficulty": 2
+            "difficulty": 2,
+            "type": "fly"
         },{
             "name": "triple barspin",
-            "difficulty": 3
+            "difficulty": 3,
+            "type": "fly"
         },{
             "name": "trailwhip",
-            "difficulty": 1
+            "difficulty": 1,
+            "type": "fly"
         },{
             "name": "double trailwhip",
-            "difficulty": 1
+            "difficulty": 1,
+            "type": "fly"
         },{
             "name": "triple tailwhip",
-            "difficulty": 1
+            "difficulty": 1,
+            "type": "fly"
         },{
             "name": "quadruple trailwhip",
-            "difficulty": 3
+            "difficulty": 3,
+            "type": "fly"
         },{
             "name": "bar to whip",
-            "difficulty": 2
+            "difficulty": 2,
+            "type": "fly"
         },{
             "name": "whip to bar",
-            "difficulty": 2
+            "difficulty": 2,
+            "type": "fly"
         },{
             "name": "finger whip",
-            "difficulty": 2
+            "difficulty": 2,
+            "type": "fly"
         },{
             "name": "finger double whip",
-            "difficulty": 3
+            "difficulty": 3,
+            "type": "fly"
         },{
             "name": "bri",
-            "difficulty": 2
+            "difficulty": 2,
+            "type": "fly"
         },{
             "name": "bri whip",
-            "difficulty": 3
+            "difficulty": 3,
+            "type": "fly"
         },{
             "name": "front bri",
-            "difficulty": 2
+            "difficulty": 2,
+            "type": "fly"
         },{
             "name": "front scoot",
-            "difficulty": 3
+            "difficulty": 3,
+            "type": "fly"
         },{
             "name": "whip front scoot",
-            "difficulty": 2
+            "difficulty": 2,
+            "type": "fly"
         },{
             "name": "buttercup",
-            "difficulty": 3
+            "difficulty": 3,
+            "type": "fly"
         },{
             "name": "umbrela",
-            "difficulty": 3
+            "difficulty": 3,
+            "type": "fly"
         },{
             "name": "kickless",
-            "difficulty": 2
+            "difficulty": 2,
+            "type": "fly"
         },{
             "name": "whip kickless",
-            "difficulty": 3
+            "difficulty": 3,
+            "type": "fly"
         },{
             "name": "kickless whip",
-            "difficulty": 3
+            "difficulty": 3,
+            "type": "fly"
         },{
             "name": "180",
-            "difficulty": 1
+            "difficulty": 1,
+            "type": "rotation"
         },{
             "name": "360",
-            "difficulty": 1
+            "difficulty": 1,
+            "type": "rotation"
         },{
             "name": "720",
-            "difficulty": 3
-        },{
-            "name": "360 bar",
-            "difficulty": 2
-        },{
-            "name": "360 whip",
-            "difficulty": 2
-        },{
-            "name": "360 bar bar",
-            "difficulty": 3
-        },{
-            "name": "360 double whip",
-            "difficulty": 3
-        },{
-            "name": "360 bar whip",
-            "difficulty": 1
+            "difficulty": 3,
+            "type": "rotation"
         },{
             "name": "540",
-            "difficulty": 2
+            "difficulty": 2,
+            "type": "rotation"
         },{
             "name": "grab",
-            "difficulty": 1
+            "difficulty": 1,
+            "type": "fly"
         },{
             "name": "grab-bar",
-            "difficulty": 3
+            "difficulty": 3,
+            "type": "fly"
         }
     ]
 }

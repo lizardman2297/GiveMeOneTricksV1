@@ -21,9 +21,9 @@ app.get('/sport/:sport/:level', function(request, response) {
     moduleSport = require("./src/sport")
     trick = moduleSport.getRandomTricks(tricks, level)
 
-    let test = JSON.stringify(json)
+    let listeTricks = JSON.stringify(json)
 
-    response.render("tricks.ejs", {sport: sport, trick: trick, level: level, tricksList: test})
+    response.render("tricks.ejs", {sport: sport, trick: trick, level: level, tricksList: listeTricks})
 })
 
 app.use(function(req, res, next) {

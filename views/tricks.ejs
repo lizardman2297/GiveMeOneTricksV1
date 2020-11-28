@@ -12,17 +12,20 @@
             <h2>Your score : <span id="yourScore">0</span></h2>
         </div>
         <div class="btnGroup">
-
-             
-            <button onclick="test(`<%= tricksList %>`, 'success')" class="btn validate">Validé</button>
-            <button onclick="test(`<%= tricksList %>`, 'fail')" class="btn fail">Raté</button>
-            <button onclick="test(`<%= tricksList %>`, 'skip')" class="btn skip">Passé</button>
+            <input type="checkbox" name="rota" id="rota" checked>
+            <label for="rota">Mode rotation</label>
+        </div>
+        <div class="btnGroup">
+            <button onclick="validate(`<%= tricksList %>`, 'success')" class="btn validate">Validé</button>
+            <button onclick="validate(`<%= tricksList %>`, 'fail')" class="btn fail">Raté</button>
+            <button onclick="validate(`<%= tricksList %>`, 'skip')" class="btn skip">Passé</button>
         </div>
         <div class="btnGroup">
             <button onclick="reset()" class="btn reset">Reset</button>
         </div>
     </div>
     
+
 
     <script src="../../public/js/tricks.js"></script>
     <script src="../../public/js/score.js"></script>

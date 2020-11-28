@@ -2,103 +2,124 @@
     "bmx": [
 		{
 			"name": "barspin",
-			"difficulty": 1
+			"difficulty": 1,
+            "type": "fly"
 		},{
 			"name": "180",
-			"difficulty": 1
+			"difficulty": 1,
+            "type": "rotation"
 		},{
 			"name": "360",
-			"difficulty": 1
+			"difficulty": 1,
+            "type": "rotation"
 		},{
 			"name": "540",
-			"difficulty": 2
+			"difficulty": 2,
+            "type": "rotation"
 		},{
 			"name": "720",
-			"difficulty": 3
+			"difficulty": 3,
+            "type": "rotation"
 		},{
 			"name": "tailwhip",
-			"difficulty": 2
+			"difficulty": 2,
+            "type": "fly"
 		},{
 			"name": "condor",
-			"difficulty": 1
+			"difficulty": 1,
+            "type": "fly"
 		},{
 			"name": "sucide",
-			"difficulty": 2
+			"difficulty": 2,
+            "type": "fly"
 		},{
 			"name": "nose grab",
-			"difficulty": 1
+			"difficulty": 1,
+            "type": "fly"
 		},{
 			"name": "seat grab",
-			"difficulty": 1
+			"difficulty": 1,
+            "type": "fly"
 		},{
 			"name": "tobogan",
-			"difficulty": 2
+			"difficulty": 2,
+            "type": "fly"
 		},{
 			"name": "whip",
-			"difficulty": 1
+			"difficulty": 1,
+            "type": "fly"
 		},{
 			"name": "tabletop",
-			"difficulty": 1
+			"difficulty": 1,
+            "type": "fly"
 		},{
 			"name": "invert",
-			"difficulty": 2
+			"difficulty": 2,
+            "type": "fly"
 		},{
 			"name": "turndown",
-			"difficulty": 2
-		},{
-			"name": "360 barspin",
-			"difficulty": 2
+			"difficulty": 2,
+            "type": "fly"
 		},{
 			"name": "bar to bar",
-			"difficulty": 3
-		},{
-			"name": "360 tailwhip",
-			"difficulty": 3
+			"difficulty": 3,
+            "type": "fly"
 		},{
 			"name": "crankflip",
-			"difficulty": 1
+			"difficulty": 1,
+            "type": "fly"
 		},{
 			"name": "no foot",
-			"difficulty": 1
+			"difficulty": 1,
+            "type": "fly"
 		},{
 			"name": "one foot",
-			"difficulty": 1
-		},{
-			"name": "180 barspin",
-			"difficulty": 2
+			"difficulty": 1,
+            "type": "fly"
 		},{
 			"name": "tailwhip to bar",
-			"difficulty": 4
+			"difficulty": 4,
+            "type": "fly"
 		},{
 			"name": "backflip",
-			"difficulty": 2
+			"difficulty": 2,
+            "type": "fly"
 		},{
 			"name": "canonball",
-			"difficulty": 3
-		},{
-			"name": "360 condor",
-			"difficulty": 3
+			"difficulty": 3,
+            "type": "fly"
 		},{
 			"name": "tail tap",
-			"difficulty": 1
+			"difficulty": 1,
+            "type": "teck"
 		},{
 			"name": "270",
-			"difficulty": 1
+			"difficulty": 1,
+            "type": "rotation"
 		},{
 			"name": "foot plant",
-			"difficulty": 1
+			"difficulty": 1,
+            "type": "teck"
 		},{
 			"name": "oppo 180",
-			"difficulty": 1
+			"difficulty": 1,
+            "type": "rotation"
+		},{
+			"name": "oppo 360",
+			"difficulty": 1,
+            "type": "rotation"
 		},{
 			"name": "oppo bus",
-			"difficulty": 2
+			"difficulty": 2,
+            "type": "fly"
 		},{
 			"name": "footjam",
-			"difficulty": 2
+			"difficulty": 2,
+            "type": "teck"
 		},{
 			"name": "footjam whip",
-			"difficulty": 3
+			"difficulty": 3,
+            "type": "teck"
 		}
 	]
 }
